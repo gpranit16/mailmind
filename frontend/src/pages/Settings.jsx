@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar';
 import BottomNav from '../components/BottomNav';
 import Toast from '../components/Toast';
 
-const API_BASE = 'http://localhost:8000';
+const API_BASE = process.env.REACT_APP_API_BASE || 'http://localhost:8000';
 
 function formatUptime(totalSeconds) {
   const hours = Math.floor(totalSeconds / 3600);
