@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+
+# Env / secrets
+.env
+backend/.env
+backend/token.json
+backend/credentials.json
+
+# Data / models
+models/chroma_db/
+models/email_history.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+frontend/build/
